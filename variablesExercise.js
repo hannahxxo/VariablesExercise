@@ -10,9 +10,17 @@ num--;
 
 num = "This is not a number";
 
-let blank = null;
+let blank;
+
 console.log(blank);
 
+blank = null
+
 // BONUS
-// var quarter, dime, nickel, penny = [0.25 0.10, 0.05, 0.01]
-// console.log(var);
+const quarter = 0.25, dime = 0.10, nickel = 0.05, penny = 0.01;
+
+console.log(quarter, dime, nickel, penny);
+
+let letters = "qwertyuiop"
+
+console.log(letter[letters.length - 1]);
